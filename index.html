@@ -10,12 +10,13 @@
 <body>
     <h1 class="heading">Cash Register Manager</h1>
     <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
-    <label for="billAmount" class="input">Bill Amount:</label>
-    <input class="input"type="number" id="billAmount">
-    <label for="cashGiven" class="input">Bill Amount:</label>
-    <input class="input"type="number" id="cashGiven">
+    <label for="bill-Amount" class="input">Bill Amount:</label>
+    <input class="input"type="number" id="bill-Amount">
+    <label for="cash-Given" class="input">Bill Amount:</label>
+    <input class="input"type="number" id="cash-Given">
     <button id="check">Check</button>
     <hr>
+    <div class="output"></div>
     <table class="table">
         <caption>Return Change</caption>
         <tr>
@@ -23,20 +24,20 @@
             <td>2000</td>
             <td>500</td>
             <td>100</td>
-            <td>50</td>
+            <td>20</td>
             <td>10</td>
             <td>5</td>
             <td>1</td>
         </tr>
         <tr>
             <td>Notes</td>
-            <td><div id="2000note"></div></td>
-            <td><div id="500note"></div></td>
-            <td><div id="100note"></div></td>
-            <td><div id="50note"></div></td>
-            <td><div id="10note"></div></td>
-            <td><div id="5note"></div></td>
-            <td><div id="1note"></div></td>
+            <td><div class="notes"id="2000note"></div></td>
+            <td><div class="notes"id="500note"></div></td>
+            <td><div class="notes"id="100note"></div></td>
+            <td><div class="notes"id="20note"></div></td>
+            <td><div class="notes"id="10note"></div></td>
+            <td><div class="notes"id="5note"></div></td>
+            <td><div class="notes"id="1note"></div></td>
         </tr>
     </table>
     <footer>
