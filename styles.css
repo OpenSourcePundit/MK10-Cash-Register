@@ -119,3 +119,7 @@ footer{
 .bloglist{
     padding: 1rem;
 }
+table, th, td {
+    border: 1px solid;
+    min-width: 3rem;
+  }
