@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://kit.fontawesome.com/7e00d5f81a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
 </head>
 <body>
-    <h1 class="heading">Cash Register Manager</h1>
+    <div class="navigation">
+        <h1 class="nav-brand">Cash Register Manager</h1>
+    </div>
     <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
     <label for="bill-Amount" class="input">Bill Amount:</label>
     <input class="input"type="number" id="bill-Amount">
@@ -18,26 +21,26 @@
     <hr>
     <div class="output"></div>
     <table class="table">
-        <caption>Return Change</caption>
+        <caption> <strong>Return Change</strong> </caption>
         <tr>
-            <td>No of Notes</td>
-            <td>2000</td>
-            <td>500</td>
-            <td>100</td>
-            <td>20</td>
-            <td>10</td>
-            <td>5</td>
-            <td>1</td>
+            <td>  No of Notes  </td>
+            <td>   2000   </td>
+            <td>   500   </td>
+            <td>   100   </td>
+            <td>   20   </td>
+            <td>   10   </td>
+            <td>   5   </td>
+            <td>   1   </td>
         </tr>
         <tr>
-            <td>Notes</td>
-            <td><div class="notes"id="2000note"></div></td>
-            <td><div class="notes"id="500note"></div></td>
-            <td><div class="notes"id="100note"></div></td>
-            <td><div class="notes"id="20note"></div></td>
-            <td><div class="notes"id="10note"></div></td>
-            <td><div class="notes"id="5note"></div></td>
-            <td><div class="notes"id="1note"></div></td>
+            <td>  Notes   </td>
+            <td>   <div class="notes"id="2000note"></div>   </td>
+            <td>   <div class="notes"id="500note"></div>   </td>
+            <td>   <div class="notes"id="100note"></div>   </td>
+            <td>   <div class="notes"id="20note"></div>   </td>
+            <td>   <div class="notes"id="10note"></div>   </td>
+            <td>   <div class="notes"id="5note"></div>   </td>
+            <td>   <div class="notes"id="1note"></div>   </td>
         </tr>
     </table>
     <footer>
