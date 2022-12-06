@@ -123,3 +123,18 @@ table, th, td {
     border: 1px solid;
     min-width: 3rem;
   }
+  .input{
+    background-color:var(--offcolor);
+    margin: 1rem;
+    display: block;
+  }
+
+ #check { margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    background-color:rgba(232, 247, 13, 0.748);
+    border-radius: .1rem;
+    border: 1px solid var(--secondary-color);
+    padding: .5rem;
+    cursor:pointer;
+}
